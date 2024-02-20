@@ -46,7 +46,6 @@ function criarCalendario() {
 
     let tabelaCalendario = '';
 
-    // Adiciona a linha com os meses
     tabelaCalendario += '<tr>';
     for (let i = 0; i < meses.length; i++) {
         if (i === 4 || i === 8) {
