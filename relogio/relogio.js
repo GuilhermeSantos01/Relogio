@@ -79,8 +79,7 @@ function criarCalendario() {
     tabelaCalendario += '</tr>';
 
     calendarTable.innerHTML = tabelaCalendario;
-
-    // Atualiza o ano no elemento span
+    
     document.getElementById('current-year').textContent = anoAtual;
 }
 
